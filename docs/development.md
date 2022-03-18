@@ -25,6 +25,19 @@ make utest
 
 [client测试例子](../examples/v1-client/index.html)
 
+## 打包
+
+```shell
+make build-mac
+```
+
+Mac测试运行
+
+```shell
+
+cd ./build/mac && chmod a+x ./main && ./main
+```
+
 ## 参考
 
 [例子1](https://segmentfault.com/a/1190000022034813)
